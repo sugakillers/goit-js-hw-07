@@ -1,0 +1,325 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+  max-width: 1440px;
+}
+
+
+/*--------------- 1 ---------------*/
+
+#categories {
+  
+  background-color: #ffffff;
+  height: 888px;
+  width: 440px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 0;
+  gap: 24px;
+  border-radius: 8px;
+  
+
+}
+
+#categories .item{
+  font-family: "Montserrat", sans-serif;
+  background: #f6f6fe;
+  padding: 16px;
+  width: 392px;
+  
+  display: flex;
+  
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+#categories .item ul {
+  list-style: none;
+  display: flex;
+  
+  flex-direction: column;
+  padding-left: 0px;
+  gap: 8px;
+  color: #2e2f42;
+}
+
+#categories .item h2 {
+margin-top: 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  
+}
+
+
+#categories .item ul li {
+  
+  height: 40px;
+  padding: 8px 8px 0 16px ;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+
+/*--------------- 2 ---------------*/
+
+
+.gallery {
+  padding: 100px 156px ;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  list-style: none;
+  margin: 0;
+}
+
+.gallery-item {
+}
+
+.gallery-image {
+  width: 360px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+
+
+
+/*--------------- 3 ---------------*/
+
+#name-input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  width: 360px;
+  height: 40px;
+  padding: 8px 0 8px 16px;
+
+}
+
+/*--------------- 4 ---------------*/
+
+.login-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 360px;
+  gap: 8px;
+}
+
+
+.login-form label{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+
+.login-form input{
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 16px;
+  margin-top: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+
+}
+
+
+.login-form input:hover {
+  border: 1px solid #000000;
+  
+}
+
+.login-form input:focus {
+  border: 1px solid #000000;
+  
+}
+
+
+
+
+.login-form button{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+}
+
+.login-form button:hover{
+  background: #6c8cff;
+
+}
+
+
+/*--------------- 5 ---------------*/
+
+.widget {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 169px;
+  gap: 16px;
+}
+
+.widget p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding: 0;
+  margin: 0;
+}
+
+.widget button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+}
+.widget button:hover{
+  background: #6c8cff;
+}
+
+
+
+/*--------------- 6 ---------------*/
+
+
+#controls {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 32px;
+  width: 489px;
+  background-color: #f6f6fe;
+}
+
+#controls input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 2px 72px;
+  width: 150px;
+  height: 40px;
+  
+
+  
+}
+
+button[data-create]{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+}
+button[data-create]:hover{
+  background: #6c8cff;
+}
+
+button[data-destroy]{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #ff4e4e;
+  border: none;
+
+}
+button[data-destroy]:hover{
+  background: #ff7070;
+}
+
+
+
+#boxes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  padding: 32px;
+  background-color: #f6f6fe;
+  
+  margin-top: 16px;
+  gap: 10px;
+}
+
+
+
